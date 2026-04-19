@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Example</title>
+
+    <style>
+        .container {
+            display: grid;                  
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .box {
+            background: rgb(77, 190, 238);
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Events List</h2>
+
+<div class="container">
+
+    <div class="box">
+        <dl>
+        <dt><h4>Dance</h4></dt>
+      
+            <dd>Solo</dd>
+            <dd>Group</dd>
+        </dl>
+    </div>
+
+    <div class="box">
+        <h4>Singing</h4>
+        <ul>
+            <li>Solo</li>
+            <li>Duet</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h4>Drama</h4>
+        <ol type="i">
+            <li>Stage</li>
+            <li>Street</li>
+        </ol>
+    </div>
+
+</div>
+
+</body>
+</html>
